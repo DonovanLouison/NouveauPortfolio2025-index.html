@@ -13,9 +13,9 @@
 ;
     overflow: hidden;
 }
-.card a {
+/* .card a {
     height:50vh;     
-  }
+  } */
 
 .card a img{
    height:100%; 
