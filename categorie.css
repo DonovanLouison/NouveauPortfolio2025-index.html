@@ -18,7 +18,7 @@ body{
     background-color: rgb(255, 255, 255) !important;
 }
 
-.header1 li a{
+.header1 ul li a{
     color: black;
 }
 
