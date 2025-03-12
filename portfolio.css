@@ -549,6 +549,7 @@ body {
   font-size: 3em;
   border-radius: 60px;
   margin-top: 40px;
+  color: #060606;
 }
 
 @media (max-width: 1280px) {
