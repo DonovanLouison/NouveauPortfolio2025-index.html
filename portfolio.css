@@ -20,7 +20,7 @@ body {
 
 .menuBarre {
   position: fixed;
-  height: 100vh;
+  height: 115vh;
   z-index: 100000;
   display: none;
   width: 100vw;
@@ -39,10 +39,14 @@ body {
   top: 20px;
 }
 .menuBarre ul li {
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
   margin-top: 50px;
   font-weight: bold;
+}
+
+.menuBarre ul li a {
+  color: whitesmoke;
 }
 
 .menuBarre ul li a:visited {
