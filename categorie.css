@@ -22,6 +22,14 @@ body{
     color: black;
 }
 
+.header1 .container ul a {
+    font-size: 2.5em;
+    color: #060606; 
+    z-index: 990000;
+    position: relative;
+    cursor: pointer;
+}
+
 
 @media (max-width: 900px) {
     .header1 .container ul {
