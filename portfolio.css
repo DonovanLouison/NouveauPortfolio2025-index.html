@@ -20,7 +20,7 @@ body {
 
 .menuBarre {
   position: fixed;
-  height: 115vh;
+  height: 110%;
   z-index: 100000;
   display: none;
   width: 100vw;
