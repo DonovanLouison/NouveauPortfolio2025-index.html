@@ -1,0 +1,46 @@
+
+body{
+    background-color: rgb(236, 236, 236) !important;
+}
+
+.sec3{
+    padding-top: 17vh;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.sec3 .container .card p {
+    font-size: 1.3rem;
+    margin: 4vh auto;
+    color: #0d0d0d;
+    font-weight: bold;
+}
+.header1 {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.header1 li {
+    color: black;
+}
+
+
+@media (max-width: 900px) {
+    .header1 .container ul {
+      font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    .sec3{
+        margin-top: 0vh;
+    }
+}
+
+@media (max-width: 550px){
+.sec3 img {
+    width: 80%;
+    height: 90%;
+}
+
+.card a {
+    height: 30vh;
+}}

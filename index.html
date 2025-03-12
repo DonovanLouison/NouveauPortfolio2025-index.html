@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Portfolio Donovan LOUISON</title>
+    <meta charset="UTF-8">
+    <link href="portfolio.css" rel="stylesheet">
+    <link rel="stylesheet" href="futura medium bt.ttf">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="categorie.html">
+    <link rel="stylesheet" href="projetPS5.html">
+    <link rel="stylesheet" href="projetEnvy.html">
+    <script src="https://kit.fontawesome.com/c70140f120.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    
+    </div>
+    <div class="header2">
+
+        <div id="container2">
+            <div class="barre"></div>
+            <div class="barre"></div>
+            <div class="barre"></div>
+        </div>
+    </div>
+
+
+    <div class="menuBarre">
+        <h1 class="return">
+        </h1>
+        <ul>
+
+            <li class="li"><a href="categorie.html">Projets</a></li>
+            <li class="li"><a href="#chifoumi">Chifoumi ?</a></li>
+            <li class="li"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <header class="header1">
+        <div class="container">
+
+            <ul>
+                <li class="li3"><a href="categorie.html">Projets</a></li>
+                <li class="li4"><a href="#chifoumi">Chifoumi ?</a></li>
+                <li class="li1"><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+        </div>
+
+    </header>
+    <section class="sec1">
+        <div class="container">
+            <div class="right">
+                <img src="regard.jpg">
+            </div>
+            <div class="content">
+                <div class="left">
+                    <h1> Donovan <br>LOUISON</h1>
+                    <div class="separateur"></div>
+                    <p>Administrateur Système, Expert en Cybersécurité et Développeur Full Stack</i>
+                    </p>
+
+                </div>
+            </div>
+            <div class="lan"><img src="LANTERN3.png"></div>
+    </section>
+
+    <div class="separateurimage">
+
+    </div>
+
+
+
+    <section class="sec3" id="projet">
+        <div class="title">
+            <h1>Mes projets : </h1>
+        </div>
+        <div class="container">
+            <!-- <div class="contenttop"> -->
+            <div class="card">
+                <a href="projetEnvy.html"><img src="Capture d'écran 2025-03-12 022915.png"></a>
+                <p>Alternance : Refonte entière d'un site e-commerce</p>
+            </div>
+            <div class="card">
+                <a href="projetBlog.html"><img src="Capture d'écran 2025-03-12 021845.png"></a>
+                <p>Blog personnel sur le jiu-jitsu brésilien</p>
+            </div>
+
+            <div class="card">
+                <a href="projetPS5.html"><img src="Capture d'écran 2025-03-12 021927.png"></a>
+                <p> interface menu PS5</p>
+            </div>
+
+            <div class="card">
+                <a href="pageProjet1.html"><img src="Capture d'écran 2024-12-01 235607.png"></a>
+                <p>One page d'une association pour la protection de la faune</p>
+            </div>
+
+
+            <!-- <div class="card">
+                <a href="https://donovanlouison.github.io/site-association-wwf-index.html/" target="_blank"><img
+                        src="Capture d'écran 2024-12-01 235607.png"></a>
+                <p>description</p>
+            </div>
+
+
+            <div class="card">
+                <a href="https://donovanlouison.github.io/site-association-wwf-index.html/" target="_blank"><img
+                        src="Capture d'écran 2024-12-01 235607.png"></a>
+                <p>description</p>
+            </div> -->
+        </div>
+ 
+            <button id="but" onclick="lien()">
+                <a href="categorie.html">En savoir plus...</a>
+            </button>
+    </section>
+
+    <div class="separateur3"></div>
+
+    <section class="sec4">
+
+        <div class="container">
+            <div class="title" id="chifoumi">
+                <h1>Chifoumi</h1>
+            </div>
+            <button onclick="chifoumi()">jouez</button>
+        </div>
+        <div class="separateur5"></div>
+    </section>
+
+
+    <section class="sec5">
+        <div class="container">
+            <div class="title">
+                <h1 id="contact"> Contact :</h1>
+                <div class="separateur"></div>
+            </div>
+            <div class="contact">
+                <ul class="ul">
+                    <li><a href="https://github.com/DonovanLouison"><img src="Octicons-mark-github.svg" width="30px"
+                                height="30px"></a>https://github.com/DonovanLouison</li>
+                    <li><img src="linkdine.png" width="30px" height="30px">www.linkedin.com/in/louisondonovan</li>
+                    <li><img src="Mail_(iOS).svg.png" width="30px" height="30px">donovanlouison@gmail.com</li>
+                    <li><img src="WhatsApp.svg.png" width="30px" height="30px">06 26 60 12 11</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script>
+
+        let player;
+        let random;
+        let computer;
+
+
+
+
+        random = Math.random();
+
+
+
+        function chifoumi() {
+            player = window.prompt('Choisissez pierre feuille ou ciseaux');
+            player = player.toLowerCase();
+            if (player == "pierre" || player == "feuille" || player == "ciseaux") {
+
+                if (random < 1 / 3) {
+                    computer = 'pierre';
+                }
+
+                else if (random < 2 / 3) {
+                    computer = 'feuille';
+                }
+                else {
+                    computer = 'ciseaux';
+                }
+                alert("Choix de l'ordinateur : " + computer);
+
+                if (computer == player) {
+
+                    alert("Egalité");
+                }
+                else {
+                    switch (computer) {
+                        case "pierre": if (player === "feuille") {
+                            alert("gagné")
+                        }
+                        else {
+                            alert("perdu")
+                        }; break;
+
+                        case "feuille": if (player === "ciseaux") {
+                            alert("gagné")
+                        }
+                        else {
+                            alert("perdu")
+                        }; break;
+                        case "ciseaux": if (player === "pierre") {
+                            alert("gagné")
+                        }
+                        else {
+                            alert("perdu");
+                        }; break;
+
+                        default: alert("C'est perdu");
+
+                    }
+                }
+            }
+
+            else {
+                alert("valeur incorrect");
+            }
+            window.location.reload();
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+
+    <script type="text/javascript">
+        $(document).on("click", ".onglet-side a", function () {
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
