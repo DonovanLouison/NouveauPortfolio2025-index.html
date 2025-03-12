@@ -134,7 +134,7 @@ body {
 }
 
 .header1 .container ul a:visited {
-  color: inherit;
+/*   color: inherit; */
 }
 
 .header1 .container ul .li1 {
